@@ -1,0 +1,51 @@
+body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+#perfil__main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+#perfil__info-usuario {
+    display: flex;
+    width: min(450px, 100%);
+    flex-direction: column;
+    align-items: center;   
+}
+
+@media only screen and (max-width: 768px) {
+    #perfil__main {
+        flex-wrap: wrap
+    }
+}
+
+#perfil__recetas {
+    flex-grow: 1;
+
+}
+
+.perfil__tarjeta-recetas {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+@media only screen and (max-width: 768px) {
+    .perfil__tarjeta-recetas {
+        flex-wrap: wrap
+    }
+
+}
+
+#perfil__contenedor-recetas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.button {
+    background-color: #f5ecea;
+}
+
+
