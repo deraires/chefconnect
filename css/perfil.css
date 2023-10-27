@@ -7,6 +7,11 @@ body{
     gap: 30px
 }
 
+.perfil__container {
+    align-items: center;
+}
+
+
 #perfil__info-usuario {
     display: flex;
     width: min(450px, 100%);

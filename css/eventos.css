@@ -5,6 +5,8 @@ body{
 .eventos_main-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .eventos__archivos-nivel1 {
@@ -19,7 +21,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 30px;
-    align-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 
 }
