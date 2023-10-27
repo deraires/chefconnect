@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/explorecetas.css">
+    <title>ChefConnect</title>
+</head>
+<body>
+    <div class="barranav">
+        <a id="logosinhover" href="sesioniniciada.html"><img style="width: 70px;" src="Images/logo.png" alt="Logo de ChefConnect"></a>
+        <div class="opciones">
+            <input type="text" placeholder="Buscar">
+            <a href="#">Perfil</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="busqueda">
+            <form action="registro.html" method="GET" id="formEjemplo">
+            <fieldset>
+                <label for="job">Filtrar</label>
+                <select id="job" name="user_job">
+                    <optgroup label="Comida">
+                        <option value="frontend_developer">Menos de 30 minutos</option>
+                        <option value="php_developer">Vegano</option>
+                        <option value="python_developer">Pasta</option>
+                        <option value="rails_developer">Ensaladas</option>
+                        <option selected value="web_designer">Ver todas</option>
+                        <option value="wordpress_developer">Mejor valoradas</option>
+                    </optgroup>
+                    <optgroup label="Postres">
+                        <option value="android_developer">Veganos</option>
+                        <option value="ios_developer">Menos de 30 minutos</option>
+                        <option value="mobile_designer">Mejor valoradas</option>
+                    </optgroup>
+                    <optgroup label="Intolerancias">
+                        <option value="business_owner">Celíacos</option>
+                        <option value="freelancer">Sin lactosa</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

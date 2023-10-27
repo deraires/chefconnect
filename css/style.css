@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logosinhover{
+    background-color: transparent;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+#enlacesinhover{
+background-color: transparent;
+color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+a{ 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+padding: 8px;
+border-radius: 10px;
+text-decoration: none;
+    
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #f5ecea;
+  }
+
+a:visited {
+    color: none;
+  }
+
+.barranav {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5ecea;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barranav img {
+    width: 100px;
+    float:left;
+}
+
+.barranav .opciones {
+    display: flex;
+    align-items: center;
+}
+
+.barranav input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.content {
+    margin-top: 100px; 
+}
+
+.cajabienvenida {
+    background-image: url('/Images/bienvenida.jpg');
+    /*background-color: #000;*/
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.cajabienvenida .fondo-imagen {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.cajarecetas {
+    /*border: 3px solid #000;*/
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.cajarecetas h2 {
+    margin-top: 0;
+}
+
+.recetas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.recetas-arriba,
+.recetas-abajo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cajarecetas .receta {
+    flex: 1;
+    max-width: calc(50% - 10px);
+    margin: 5px;
+    padding: 20px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    display: flex;
+}
+
+.receta:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cajarecetas .receta img {
+    width: 130px;
+    border-radius: 5px;
+}
+
+.cajarecetas .receta .info-receta {
+    flex: 1;
+    margin-left: 40px;
+    padding: 10px;
+    text-align: left;
+}
+
+.cajarecetas .ver-mas {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
+.cajaproxeven {
+    display: flex;
+    align-items: center;
+    /*border: 3px solid #000;*/
+    border-radius: 15px;
+    /*margin: 20px;*/
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.cajaproxeven img {
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+}
+
+.cajaproxeven .info-evento {
+    padding: 20px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.cajaproxeven .ver-mas {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cajadesaf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.cajadesaf h2 {
+    text-align: center; /* Centra el título horizontalmente */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+.cajadesaf .imagenes-desaf {
+    display: flex;
+    justify-content: block;
+    align-items: center;
+    width: 100%;
+}
+
+.cajadesaf .imagen-desaf {
+    /*border: 3px solid #000;*/
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cajadesaf .imagen-desaf img {
+    width: 100%;
+}
+
+.cajadesaf .imagen-desaf:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top: 3px solid #000;
+}
+

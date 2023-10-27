@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registrostyle.css">
+    <title>ChefConnect</title>
+</head>
+<body>
+    <div class="barranav">
+        <a id="logosinhover" href="index.html"><img style="width: 70px;" src="Images/logo.png" alt="Logo de ChefConnect"></a>
+        <div class="opciones">
+            <input type="text" placeholder="Buscar">
+            <a href="#">Perfil</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="cajabienvenida">
+            <div class="fondo-imagen">
+                <form action="registro.html" method="GET" id="formEjemplo">
+                    <h1> Registro </h1>
+
+                    <fieldset>
+                        <legend> Información Básica</legend>
+
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="user_name">
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="mail" name="user_email">
+
+                        <label for="password">Clave:</label>
+                        <input type="password" id="password" name="user_password">
+
+                        <span class="label">Edad:</span>
+                        <input type="radio" id="under_18" value="under_18" name="user_age" checked>
+                            <label for="under_18" class="light">Menor de 18</label><br>
+                        <input type="radio" id="over_18" value="over_18" name="user_age">
+                            <label for="over_18" class="light">Mayor de 18</label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend> Tu Perfil</legend>
+
+                        <label for="bio">Sobre ti:</label>
+                        <textarea id="bio" name="user_bio"></textarea>
+
+                        <!--<label for="job">Puesto:</label>
+                        <select id="job" name="user_job">
+                            <optgroup label="Web">
+                                <option value="frontend_developer">Front-End Developer</option>
+                                <option value="php_developer">PHP Developer</option>
+                                <option value="python_developer">Python Developer</option>
+                                <option value="rails_developer">Rails Developer</option>
+                                <option selected value="web_designer">Web Designer (por defecto)</option>
+                                <option disabled value="wordpress_developer">Wordpress Developer (deshabilitado)</option>
+                            </optgroup>
+                            <optgroup label="Mobile">
+                                <option value="android_developer">Android Developer</option>
+                                <option value="ios_developer">IOS Developer</option>
+                                <option value="mobile_designer">Mobile Designer</option>
+                            </optgroup>
+                            <optgroup label="Business">
+                                <option value="business_owner">Business Owner</option>
+                                <option value="freelancer">Freelancer</option>
+                            </optgroup>
+                        </select> -->
+
+                        <span class="label">Intolerancias:</span>
+                        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label
+                            class="light" for="development">Lactosa</label><br>
+                        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label
+                            class="light" for="design">Fructosa</label><br>
+                        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label
+                            class="light" for="business">Gluten</label>
+
+                            <span class="label"><b>Terminos y condiciones:</b></span>
+                        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label
+                            class="light" for="development">HE LEÍDO Y ACEPTO LOS TÉRMINOS Y CONDICIONES</label><br>
+
+                    </fieldset>
+                    <a href="sesioniniciada.html">Enviar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

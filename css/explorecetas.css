@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logosinhover{
+    background-color: transparent;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+#enlacesinhover{
+background-color: transparent;
+color:black;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+a{ 
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+padding: 8px;
+border-radius: 10px;
+text-decoration: none;
+    
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #f5ecea;
+  }
+
+a:visited {
+    color: none;
+  }
+
+.barranav {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5ecea;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barranav img {
+    width: 100px;
+    float:left;
+}
+
+.barranav .opciones {
+    display: flex;
+    align-items: center;
+}
+
+.barranav input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.content {
+    margin-top: 100px; 
+}
+
+.busqueda{
+    /*background-color: aqua;*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#formEjemplo {
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+#formEjemplo select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+#formEjemplo select {
+    padding: 6px;
+    border-radius: 15px;
+}
+
+#formEjemplo fieldset {
+    margin-bottom: 30px;
+    border-style: none;
+    /* border: none; */
+}
+
+#formEjemplo legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+#formEjemplo label {
+    margin-bottom: 8px;
+}
+#formEjemplo .label {
+    display: block;
+    margin-bottom: 8px;
+}
