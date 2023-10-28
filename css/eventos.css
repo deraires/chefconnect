@@ -5,6 +5,11 @@ body{
 .eventos_main-content {
     display: flex;
     flex-direction: row;
+/* Cris
+=======
+    justify-content: center;
+    align-items: center;
+*/ main
 }
 
 .eventos__archivos-nivel1 {
@@ -19,7 +24,11 @@ body{
     display: flex;
     flex-direction: row;
     gap: 30px;
+/*Cris
     align-content: space-around;
+=======
+    justify-content: center;
+*/ main
     flex-wrap: wrap;
 
 }
