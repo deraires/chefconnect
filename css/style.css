@@ -3,41 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
-
-#logosinhover{
-    background-color: transparent;
-    color:black;
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
+h1, h3, h6{
+    margin: 0px;
+    margin-top: 5px;
 }
-
-#enlacesinhover{
-background-color: transparent;
-color:black;
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-}
-
-a{ 
-color: #363636;
-background-color: #f5ecea;
-padding: 8px;
-border-radius: 10px;
-text-decoration: none;
-    
-}
-
-a:hover {
-    border-color:#333;
-    border: 50px;
-  }
-
-a:visited {
-    color: none;
-  }
 
 .barranav {
     position: fixed;
@@ -45,7 +14,7 @@ a:visited {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: #f5ecea;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -54,13 +23,49 @@ a:visited {
 }
 
 .barranav img {
-    width: 100px;
+    width: 200px;
     float:left;
 }
 
 .barranav .opciones {
     display: flex;
     align-items: center;
+    margin: 20px;
+}
+
+#enlacesinhover{
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+#enlacesinhover:hover{
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+
+
+a { 
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+        
+}
+    
+a:hover {
+    color: #6e6b6a;
+}
+    
+a:visited {
+        color: none;
+}
+
+#estiloboton{
+    background-color:  #f5ecea;
+}
+
+#estiloboton:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
 }
 
 .barranav input {
@@ -73,20 +78,20 @@ a:visited {
 }
 
 .cajabienvenida {
-    background-image: url('/Images/bienvenida.jpg');
+    background-image: url('/Images/fondo2.png');
     /*background-color: #000;*/
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    height: 100vh;
+    height: 90vh;
 }
 
 .cajabienvenida .fondo-imagen {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
     padding: 20px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -126,18 +131,19 @@ a:visited {
     max-width: calc(50% - 10px);
     margin: 5px;
     padding: 20px;
-    border: 3px solid #000;
+    border: 1px solid #484646;
     border-radius: 15px;
     display: flex;
 }
 
 .receta:hover {
-    background-color: #000;
-    color: #fff;
+    background-color:  #f5ecea;
+    color: #000000;
 }
 
 .cajarecetas .receta img {
-    width: 130px;
+    width: 200px;
+    height: 260px;
     border-radius: 5px;
 }
 
@@ -165,21 +171,22 @@ a:visited {
     /*border: 3px solid #000;*/
     border-radius: 15px;
     /*margin: 20px;*/
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row;
     height: 70vh;
 }
 
 .cajaproxeven img {
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 500px;
     height: 400px;
 }
 
 .cajaproxeven .info-evento {
-    padding: 20px;
-    margin-left: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: left;
 }
 
@@ -206,7 +213,7 @@ a:visited {
 
 .cajadesaf .imagenes-desaf {
     display: flex;
-    justify-content: block;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
@@ -219,13 +226,9 @@ a:visited {
     text-align: center;
 }
 
-.cajadesaf .imagen-desaf img {
-    width: 100%;
-}
-
 .cajadesaf .imagen-desaf:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #f5ecea;
+    color: #000000;
 }
 
 footer {

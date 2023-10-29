@@ -8,11 +8,14 @@
 </head>
 <body>
     <div class="barranav">
-        <a id="logosinhover" href="sesioniniciada.html"><img style="width: 70px;" src="Images/logo.png" alt="Logo de ChefConnect"></a>
+        <a href="sesioniniciada.html"><img src="Images/logo.png" alt="Logo de ChefConnect"></a>
         <div class="opciones">
-            <input type="text" placeholder="Buscar">
-            <a href="#">Perfil</a>
+            <a href="explorecetas.html">Recetas</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="eventos.html">Desafíos</a>
+            <a href="perfil.html">Perfil</a>
         </div>
+    </div>
     </div>
     <div class="content">
         <div class="busqueda">
@@ -20,44 +23,102 @@
             <fieldset>
                 <label for="job">Filtrar</label>
                 <select id="job" name="user_job">
-                    <optgroup label="Comida">
-                        <option value="frontend_developer">Menos de 30 minutos</option>
-                        <option value="php_developer">Vegano</option>
-                        <option value="python_developer">Pasta</option>
-                        <option value="rails_developer">Ensaladas</option>
+                        <option value="frontend_developer">Menos de 1 hora</option>
+                        <option value="php_developer">Menos de 30 minutos</option>
                         <option selected value="web_designer">Ver todas</option>
-                        <option value="wordpress_developer">Mejor valoradas</option>
-                    </optgroup>
-                    <optgroup label="Postres">
-                        <option value="android_developer">Veganos</option>
-                        <option value="ios_developer">Menos de 30 minutos</option>
-                        <option value="mobile_designer">Mejor valoradas</option>
-                    </optgroup>
-                    <optgroup label="Intolerancias">
-                        <option value="business_owner">Celíacos</option>
-                        <option value="freelancer">Sin lactosa</option>
-                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="job">Filtrar</label>
+                <select id="job" name="user_job">
+                        <option value="frontend_developer">Carne</option>
+                        <option value="php_developer">Pollo</option>
+                        <option value="python_developer">Pescado</option>
+                        <option value="rails_developer">Otro</option>
+                        <option selected value="web_designer">Ver todas</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="job">Ordenar</label>
+                <select id="job" name="user_job">
+                        <option value="frontend_developer">Carne</option>
+                        <option value="php_developer">Pollo</option>
+                        <option value="python_developer">Más recientes primero</option>
+                        <option value="rails_developer">Mejor valoradas</option>
+                        <option selected value="web_designer">Ver todas</option>
                 </select>
             </fieldset>
         </div>
         <div class="contenedorecetas">
             <div class="explorarreceta">
-
+                <div class="fotoreceta">
+                    <img id="foto" src="Images/arroz.jpg" alt="">
+                </div>
+                <div class="inforeceta">
+                    <h2>Salteado de arroz, verduras y ternera</h2>
+                    <a href="perfil.html"><p>Por <i>Raquel García</i></p></a>
+                    <p>Cuando hoy te sirvas este salteado de arroz, setas, júdias verdes y ternera, la cara te va a cambiar al instante y no vas a poder olvidar lo rico que está. ¡Disfrútala!</p>
+                    <a href="receta.html"><h3>Leer la receta</h3></a>
+                </div>
             </div>
-            <div class="explorarreceta">
 
+              <div class="explorarreceta">
+                <div class="fotoreceta">
+                    <img id="foto" src="Images/atun.jpg" alt="">
+                </div>
+                <div class="inforeceta">
+                    <h2>Sándwich relleno de atún</h2>
+                    <a href="perfil.html"><p>Por <i>Laura Torres</i></p></a>
+                    <p>Un sandwich hecho de zanahoria rallada cocida en tostadora. Rellénala con vegetales y atún o con lo que más te apetezca. Obtendrás una comida original, nutritiva y riquísima.</p>
+                    <a href="receta.html"><h3>Leer la receta</h3></a>
+                </div>
             </div>
-            <div class="explorarreceta">
 
+              <div class="explorarreceta">
+                <div class="fotoreceta">
+                    <img id="foto" src="Images/desayuno.jpg" alt="">
+                </div>
+                <div class="inforeceta">
+                    <h2>Bowl de frutos rojos y avena</h2>
+                    <a href="perfil.html"><p>Por <i>Ana Ramírez</i></p></a>
+                    <p>Aunque no lo creas, puedes tener listo en menos de diez minutos este bowl de frutos rojos, plátano, yogurt, avena y chía. Sigue la receta y compruébalo.</p>
+                    <a href="receta.html"><h3>Leer la receta</h3></a>
+                </div>
             </div>
-            <div class="explorarreceta">
 
+              <div class="explorarreceta">
+                <div class="fotoreceta">
+                    <img id="foto" src="Images/huevos.jpg" alt="">
+                </div>
+                <div class="inforeceta">
+                    <h2>Sartén de patatas</h2>
+                    <a href="perfil.html"><p>Por <i>Javier Sánchez</i></p></a>
+                    <p>¡Desayuna de lujo! o ¡cena genial! Verdaderamente esta sartén de patatas, huevos y tomate es estupenda para cualquier comida del día. Pruébala!!</p>
+                    <a href="receta.html"><h3>Leer la receta</h3></a>
+                </div>
+            </div>
+
+              <div class="explorarreceta">
+                <div class="fotoreceta">
+                    <img id="foto" src="Images/galletas.jpg" alt="">
+                </div>
+                <div class="inforeceta">
+                    <h2>Galletas de Chocolate y Nuez</h2>
+                    <a href="perfil.html"><p>Por <i>Raquel García</i></p></a>
+                    <p>Estas galletas son perfectas para los amantes del chocolate. La combinación de cacao
+                        en polvo y nueces picadas crea una textura crujiente por fuera y suave por dentro.
+                        ¡Son un regalo para el paladar!</p>
+                        <a href="receta.html"><h3>Leer la receta</h3></a>
+                </div>
             </div>
 
 
         </div>
 
     </div>
+    <footer>
+        <p>ChefConnect 2023©</p>
+    </footer>
     
 </body>
 </html>

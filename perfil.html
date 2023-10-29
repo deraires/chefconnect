@@ -10,55 +10,30 @@
 </head>
 
 <body>
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="index.html">
-                <img src="images/logo.png">
-            </a>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+    <div class="barranav">
+        <a href="sesioniniciada.html"><img src="Images/logo.png" alt="Logo de ChefConnect"></a>
+        <div class="opciones">
+            <a href="explorecetas.html">Recetas</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="eventos.html">Desafíos</a>
+            <a href="perfil.html">Perfil</a>
         </div>
+    </div>
 
-        <div class="navbar-menu">
-            <div class="navbar-end">
-                <a href="explorecetas.html" class="navbar-item">
-                    Recetas
-                </a>
-
-                <a href="./eventos.html#eventos__proximos-eventos" class="navbar-item">
-                    Eventos
-                </a>
-
-                <a href="eventos.html#eventos__proximos-desafios" class="navbar-item">
-                    Desafíos
-                </a>
-                <div class="navbar-item">
-                    <div class="buttons">
-                        <a href="registro.html" class="button is-rounded">
-                            Registro
-                        </a>
-                        <a href="index.html" class="button is-rounded">
-                            Acceso
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-
-    <section class="section" style="margin-top: 15px;">
+    <section class="section">
         <div class="container" id="perfil__main">
             <aside id="perfil__info-usuario">
                 <figure class="image">
-                    <img class="is-rounded" src="https://bulma.io/images/placeholders/480x480.png">
+                    <img class="is-rounded" src="Images/perfil.jpg">
                 </figure>
-                <p class="title is-5 has-text-centered">María Juanita Pérez</p>
+                <br>
+                <p class="title is-5 has-text-centered">Raquel García</p>
                 <p class="has-text-centered">Soy una cocinera aficionada, adoro los postres y las galletas</p>
+                <br>
+                <a id="estiloboton" href="nuevareceta.html">Nueva receta</a>
+                <br>
+                <br>
+                <a id="estiloboton" href="nuevareceta.html">Editar receta</a>
 
             </aside>
             <div id="perfil__recetas">
@@ -67,13 +42,11 @@
                     <div class="card">
                         <div class="card-content perfil__tarjeta-recetas">
                             <figure class="perfil__image-recetas">
-                                <img src="https://bulma.io/images/placeholders/480x480.png">
+                                <img src="Images/arroz.jpg">
                             </figure>
                             <div class="content mt-0">
-                                <h3 class="title is-3">Galletas de Chocolate y Nuez</h3>
-                                <p>Estas galletas son perfectas para los amantes del chocolate. La combinación de cacao
-                                    en polvo y nueces picadas crea una textura crujiente por fuera y suave por dentro.
-                                    ¡Son un regalo para el paladar!</p>
+                                <h3 class="title is-3">Salteado de arroz, verduras y ternera.</h3>
+                                <p>Cuando hoy te sirvas este salteado de arroz, setas, júdias verdes y ternera, la cara te va a cambiar al instante y no vas a poder olvidar lo rico que está. ¡Disfrútala!</p>
                                     <div class="tags">
                                         <span class="tag">#GluttenFree</span>
                                         <span class="tag">#Vegan</span>
@@ -86,13 +59,13 @@
                         </div>
                         <footer class="card-footer">
                             <a href="#" class="card-footer-item">Compartir</a>
-                            <a href="#" class="card-footer-item">Ver más</a>
+                            <a href="receta.html" class="card-footer-item">Ver más</a>
                         </footer>
                     </div>
                     <div class="card">
                         <div class="card-content perfil__tarjeta-recetas">
                             <figure class="perfil__image-recetas">
-                                <img src="https://bulma.io/images/placeholders/480x480.png">
+                                <img src="Images/galletas.jpg">
                             </figure>
                             <div class="content mt-0">
                                 <h3 class="title is-3">Galletas de Chocolate y Nuez</h3>
@@ -110,21 +83,18 @@
                         </div>
                         <footer class="card-footer">
                             <a href="#" class="card-footer-item">Compartir</a>
-                            <a href="#" class="card-footer-item">Ver más</a>
+                            <a href="receta.html" class="card-footer-item">Ver más</a>
                         </footer>
                     </div>
                     <div class="card">
                         <div class="card-content perfil__tarjeta-recetas">
                             <figure class="perfil__image-recetas">
-                                <img src="https://bulma.io/images/placeholders/480x480.png">
+                                <img src="Images/bizcocho.jpg">
                             </figure>
                             <div class="content mt-0">
-                                <h3 class="title is-3">Galletas de Chocolate y Nuez</h3>
-                                <p>Estas galletas son perfectas para los amantes del chocolate. La combinación de cacao
-                                    en polvo y nueces picadas crea una textura crujiente por fuera y suave por dentro.
-                                    ¡Son un regalo para el paladar!</p>
+                                <h3 class="title is-3">Bizcocho de limón.</h3>
+                                <p>Un bizcocho casero que puede ser tu desayuno o merienda perfecta. Aprovecha ahora y prueba la receta, ¡te encantará!</p>
                                     <div class="tags">
-                                        <span class="tag">#GluttenFree</span>
                                         <span class="tag">#Vegan</span>
                                         <span class="tag">#Green</span>
                                         
@@ -134,31 +104,7 @@
                         </div>
                         <footer class="card-footer">
                             <a href="#" class="card-footer-item">Compartir</a>
-                            <a href="#" class="card-footer-item">Ver más</a>
-                        </footer>
-                    </div>
-                    <div class="card">
-                        <div class="card-content perfil__tarjeta-recetas">
-                            <figure class="perfil__image-recetas">
-                                <img src="https://bulma.io/images/placeholders/480x480.png">
-                            </figure>
-                            <div class="content mt-0">
-                                <h3 class="title is-3">Galletas de Chocolate y Nuez</h3>
-                                <p>Estas galletas son perfectas para los amantes del chocolate. La combinación de cacao
-                                    en polvo y nueces picadas crea una textura crujiente por fuera y suave por dentro.
-                                    ¡Son un regalo para el paladar!</p>
-                                    <div class="tags">
-                                        <span class="tag">#GluttenFree</span>
-                                        <span class="tag">#Vegan</span>
-                                        <span class="tag">#Green</span>
-                                        
-                                      </div>
-                            </div>
-
-                        </div>
-                        <footer class="card-footer">
-                            <a href="#" class="card-footer-item">Compartir</a>
-                            <a href="#" class="card-footer-item">Ver más</a>
+                            <a href="receta.html" class="card-footer-item">Ver más</a>
                         </footer>
                     </div>
                 </div>
