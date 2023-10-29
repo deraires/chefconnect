@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+h3, h6{
+    margin: 0px;
+    margin-top: 5px;
+}
 
 .barranav {
     position: fixed;
@@ -29,6 +33,16 @@ body {
     margin: 20px;
 }
 
+#enlacesinhover{
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+#enlacesinhover:hover{
+    width: 100%;
+    color:rgb(0, 0, 0);
+}
+
+
 a { 
     color: rgb(0, 0, 0);
     padding: 8px;
@@ -45,6 +59,15 @@ a:visited {
         color: none;
 }
 
+#estiloboton{
+    background-color:  #f5ecea;
+}
+
+#estiloboton:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
 .barranav input {
     margin-right: 10px;
     padding: 5px;
@@ -54,26 +77,22 @@ a:visited {
     margin-top: 100px; 
 }
 
-.busqueda{
-    /*background-color: aqua;*/
-    background-size: cover;
-    display: flex;
-    justify-content: left;
-    height: 100px;
-}
-
 #formEjemplo {
-    width: 40%;
+    margin: 10px auto;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 8px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
+#formEjemplo input[type="text"],
+#formEjemplo input[type="email"],
+#formEjemplo input[type="password"],
+#formEjemplo textarea,
 #formEjemplo select {
     background: rgba(255, 255, 255, 0.1);
     border: none;
-    border-radius: 15px;
     font-size: 16px;
     height: auto;
     margin: 0;
@@ -86,14 +105,35 @@ a:visited {
     margin-bottom: 30px;
 }
 
+#formEjemplo input[type="radio"],
+#formEjemplo input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+}
+
 #formEjemplo select {
     padding: 6px;
-    border-radius: 15px;
+    border-radius: 2px;
+}
+
+#formEjemplo button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    margin-bottom: 10px;
 }
 
 #formEjemplo fieldset {
     margin-bottom: 30px;
     border-style: none;
+    width: 60%;
     /* border: none; */
 }
 
@@ -106,54 +146,19 @@ a:visited {
     margin-bottom: 8px;
 }
 #formEjemplo .label {
-    display: flex;
+    display: block;
     margin-bottom: 8px;
 }
 
-.contenedorecetas{
-    /*border: 3px solid #000;*/
-    border-radius: 15px;
-    margin: 20px;
-    text-align: center;
-    height: 100%;
-    margin: 0px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
+#estiloboton{
+    background-color:  #f5ecea;
 }
 
-.explorarreceta{
-    display: flex;
-    justify-content: space-between;
-    height: 300px;
-    width: 70%;
-    border-bottom: 2px solid #000;
+#estiloboton:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
 }
 
-.fotoreceta{
-    /*border: 2px solid #000;*/
-    width: 40%;
-    display:flex;
-    justify-content: center;
-}
-
-.inforeceta{
-    display: flex;
-    flex-direction: column;
-    /*border: 2px solid #000;*/
-    width: 60%;
-    justify-content: space-evenly;
-    align-items: stretch;
-    text-align: right;
-}
-
-#foto{
-    border-radius: 60px;
-   padding: 20px;
-   width: 200px;
-   height: 250px;
-}
 footer {
     text-align: center;
     background-color: #333;

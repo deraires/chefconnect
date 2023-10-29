@@ -1,20 +1,72 @@
 body{
     font-family: Helvetica,Arial,sans-serif;
 }
+
+.barranav {
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5ecea;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barranav img {
+    width: 200px;
+    float:left;
+}
+
+.barranav .opciones {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.section{
+    margin-top: 100px;
+    position: relative;
+}
+
+a{ 
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+        
+    }
+    
+    a:hover {
+        color: #6e6b6a;
+      }
+    
+    a:visited {
+        color: none;
+      }
+
+      #estiloboton{
+        background-color:  #f5ecea;
+    }
+    
+    #estiloboton:hover{
+        background-color: rgb(0, 0, 0);
+        color:white;
+    }
+    
+.barranav input {
+    margin-right: 10px;
+    padding: 5px;
+}
 #perfil__main {
     display: flex;
     flex-direction: row;
     gap: 30px
 }
 
-/* Cris
-=======
-.perfil__container {
-    align-items: center;
-}
-
-
-*/ main
+main
 #perfil__info-usuario {
     display: flex;
     width: min(450px, 100%);
@@ -22,11 +74,7 @@ body{
     align-items: center;   
 }
 
-@media only screen and (max-width: 768px) {
-    #perfil__main {
-        flex-wrap: wrap
-    }
-}
+
 
 #perfil__recetas {
     flex-grow: 1;
@@ -37,13 +85,6 @@ body{
     display: flex;
     align-items: center;
     gap: 15px
-}
-
-@media only screen and (max-width: 768px) {
-    .perfil__tarjeta-recetas {
-        flex-wrap: wrap
-    }
-
 }
 
 #perfil__contenedor-recetas {
