@@ -21,29 +21,29 @@
         <div class="busqueda">
             <form action="registro.html" method="GET" id="formEjemplo">
             <fieldset>
-                <label for="job">Filtrar</label>
-                <select id="job" name="user_job">
-                        <option value="frontend_developer">Menos de 1 hora</option>
-                        <option value="php_developer">Menos de 30 minutos</option>
-                        <option selected value="web_designer">Ver todas</option>
+                <label for="time">Tiempo</label>
+                <select id="time" name="filter_time">
+                        <option value="1hour">Menos de 1 hora</option>
+                        <option value="30min">Menos de 30 minutos</option>
+                        <option selected value="all">Ver todas</option>
                 </select>
             </fieldset>
             <fieldset>
-                <label for="job">Filtrar</label>
-                <select id="job" name="user_job">
-                        <option value="frontend_developer">Carne</option>
-                        <option value="php_developer">Pollo</option>
-                        <option value="python_developer">Pescado</option>
-                        <option value="rails_developer">Otro</option>
-                        <option selected value="web_designer">Ver todas</option>
+                <label for="protein">Proteína</label>
+                <select id="protein" name="filter_protein">
+                        <option value="protein_meat">Carne</option>
+                        <option value="protein_chicken">Pollo</option>
+                        <option value="protein_fish">Pescado</option>
+                        <option value="protein_another">Otro</option>
+                        <option selected value="all">Ver todas</option>
                 </select>
             </fieldset>
             <fieldset>
-                <label for="job">Ordenar</label>
-                <select id="job" name="user_job">
-                        <option value="python_developer">Más recientes primero</option>
-                        <option value="rails_developer">Mejor valoradas</option>
-                        <option selected value="web_designer">Ver todas</option>
+                <label for="order">Ordenar</label>
+                <select id="order" name="order_recepits">
+                        <option value="recents">Más recientes primero</option>
+                        <option value="moreliked">Mejor valoradas</option>
+                        <option selected value="all">Ver todas</option>
                 </select>
             </fieldset>
         </div>
