@@ -36,10 +36,8 @@
                         <input type="password" id="password" name="user_password">
 
                         <span class="label">Edad:</span>
-                        <input type="radio" id="under_18" value="under_18" name="user_age" checked>
-                            <label for="under_18" class="light">Menor de 18</label><br>
-                        <input type="radio" id="over_18" value="over_18" name="user_age">
-                            <label for="over_18" class="light">Mayor de 18</label>
+                        <input type="date" id="calendar" value="calendar" name="user_age">
+                            <label for="start" class="light"></label><br>
 
                     </fieldset>
 
@@ -50,12 +48,12 @@
                         <textarea id="bio" name="user_bio"></textarea>
 
                         <span class="label">Intolerancias:</span>
-                        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label
-                            class="light" for="development">Lactosa</label><br>
-                        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label
-                            class="light" for="design">Fructosa</label><br>
-                        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label
-                            class="light" for="business">Gluten</label>
+                        <input type="checkbox" id="intolerant" value="allergies_lactose" name="user_intolerant"><label
+                            class="light" for="intolerant">Lactosa</label><br>
+                        <input type="checkbox" id="intolerant" value="allergies_fructose" name="user_intolerant"><label
+                            class="light" for="intolerant">Fructosa</label><br>
+                        <input type="checkbox" id="intolerant" value="allergies_gluten" name="user_intolerant"><label
+                            class="light" for="intolerant">Gluten</label>
 
                             <span class="label"><b>Terminos y condiciones:</b></span>
                         <input type="checkbox" id="development" value="interest_development" name="user_interest"><label
