@@ -14,6 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 
 .barranav img {
@@ -66,7 +67,12 @@ a{
     gap: 30px
 }
 
-main
+#perfil__container {
+    display: flex;
+    align-items: center;
+
+}
+
 #perfil__info-usuario {
     display: flex;
     width: min(450px, 100%);
@@ -95,6 +101,14 @@ main
 
 .button {
     background-color: #f5ecea;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top: 3px solid #000;
 }
 
 
