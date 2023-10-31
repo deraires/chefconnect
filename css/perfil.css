@@ -80,8 +80,6 @@ a{
     align-items: center;   
 }
 
-
-
 #perfil__recetas {
     flex-grow: 1;
 
@@ -101,6 +99,50 @@ a{
 
 .button {
     background-color: #f5ecea;
+}
+
+#preguntas__boton {
+    margin-top: 20px;
+}
+
+#form__box {
+    display: flex;
+    justify-content: center;
+}
+  
+#form__preguntas {
+    margin-top: 40px;
+    display:block;
+    width: 100vh;
+    min-height: 30vh;
+    max-height: auto;
+    min-width: 70vh;
+    box-sizing: border-box;
+    margin-inline-start: 2em;
+    margin-inline-end: 2em;
+    padding-block-start: 2em;
+    padding-block-end: 2em;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+    background-color: #f5ecea;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+
+.form__input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-block-start: 2px;
+    padding-block-end: 2px;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-style: none;
 }
 
 footer {
