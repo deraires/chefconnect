@@ -60,14 +60,19 @@ a:visited {
     display: flex;
     align-items: flex-end;
     height: 70vh;
+    padding: 15%;
+    padding-bottom: 0;
+    padding-top: 5%;
 }
 
 .cajainferior{
     /*background-color: rgb(208, 210, 70);*/
-    align-items: flex-end;
     display: flex;
-    height: 80vh;
+    height: 100%;
     margin-top: 50px;
+    margin-top: 50px;
+    padding: 15%;
+    padding-top: 0;
 }
 .imagen{
     background-image: url('/Images/arroz2.jpg');
@@ -77,7 +82,7 @@ a:visited {
     margin: 0px;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 
 .titulo{
@@ -99,7 +104,7 @@ a:visited {
     margin: 0px;
     padding: 10px;
     text-align: justify;
-    width: 100%;
+    width: 50%;
     height: 96%;
     padding: 5%;
 }
@@ -114,7 +119,7 @@ a:visited {
 
 
 hr{
-    width:400px;
+    width:70%;
     margin-left: 0px;
 }
 footer {
