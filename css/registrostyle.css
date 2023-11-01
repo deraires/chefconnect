@@ -67,7 +67,7 @@ a:visited {
 }
 
 .cajabienvenida {
-    background-image: url('/Images/fondo2.png');
+    background-image: url('https://raw.githubusercontent.com/deraires/chefconnect/main/Images/fondo2.png');
     /*background-color: #000;*/
     background-size: cover;
     display: flex;
