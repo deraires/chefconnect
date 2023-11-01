@@ -98,4 +98,7 @@ footer {
     border-top: 3px solid #000;
 }
 
+.eventos__archivos-nivel2 .card:first-child, .card:nth-child(2) {
+    background-color: rgb(212, 212, 212, 0.5);
+}
 
